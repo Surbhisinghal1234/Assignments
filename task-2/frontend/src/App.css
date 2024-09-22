@@ -1,0 +1,29 @@
+.task{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.project-content{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.466);
+    background-image: linear-gradient(to right, #ff7e5f8c, #00800061);
+
+
+
+}
+.task-head {
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    
+  }
+  .gradient-bg {
+    background-color: #e5e7eb;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.466);
+
+  }
+
+  .btn{
+    background-color:#1e3a8a
+  }
+  

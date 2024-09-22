@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- NAVBAR SECTION START  -->
+    
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href=""><img src="./image/logo 1.png" class="logo" alt=""></a>
+        </div>
+        <div class="navbar-right">
+            <a href=""><i class="fa-solid fa-house"></i></a>
+            <a href=""><i class="fa-solid fa-screwdriver-wrench"></i></a>
+            <a href=""><i class="fa-solid fa-bell"></i></a>
+            <a href=""><img src="./image/Ellipse 53 (1).png" alt=""></a>
+            <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+        <!-- Hamburger menu for mobile -->
+        <div class="navbar-menu-icon">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobile-menu" >
+            <a href=""><i class="fa-solid fa-house"></i></a>
+            <a href=""><i class="fa-solid fa-screwdriver-wrench"></i></a>
+            <a href=""><i class="fa-solid fa-bell"></i></a>
+            <a href=""><img src="./image/Ellipse 53 (1).png" alt=""></a>
+            <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+    </nav>
+    <!-- NAVBAR SECTION FINISH  -->
+
+
+    <!-- CONTENT SECTION START  -->
+    <div class="task-container">
+
+        <!-- LEFT SECTION START  -->
+        <div class="left-container">
+            <div class="left-section">
+                <div class="arrow" onclick="toggleContent()">&#9654;</div>
+                <div class="text">
+                    <div class="journey">
+                        <strong>Journey Board</strong>
+                    </div>
+                    <div class="left-sec-content">
+                        <ul>
+                            <li><a href="" style="font-weight: 500;">Explore the world of management</a></li>
+                            <li><a href="">Technical Project Management</a></li>
+                            <li><a href="">Threadbuild</a></li>
+                            <li><a href="">Structure your pointers</a></li>
+                            <li><a href="">4SA Method</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LEFT SECTION FINISH  -->
+
+
+        <!-- CENTER SECTION START  -->
+
+        <section >
+
+            <div class="headSection">
+                <div class="management">
+                    <h2>Technical Project Management</h2>
+                    <button>Submit Task</button>
+
+                </div>
+                <div class="head-content">
+                    <h5>Explore the world of management</h5>
+                    <p>As a project manager, you play an important reole in leading a project through initiation,
+                        planning, execution, monitoring, controlling and completion. How? Do you want to manage each and
+                        every step of your life?</p>
+                </div>
+
+            </div>
+            <div class="parent-container">
+
+                <div class="container">
+                    <h3>Technical Project Management
+
+                        <span class="icon-first"><i class="fa-solid fa-circle-info"></i></span>
+                    </h3>
+                    <p class="border-bottom"><strong>Description:</strong> Story of Alignment Scope of Agility Specific
+                        Accountable Staggering Approach</p>
+
+                    <div class="video-container">
+                        <img src="./image/image-1.png" alt="Video Thumbnail" class="thumbnail" id="thumbnail">
+                        <iframe id="video" src="" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="second-box-content">
+
+                    
+                    <h3>Threadbuild
+
+                        <span class="icon-first"><i class="fa-solid fa-circle-info"></i></span>
+                    </h3>
+                    <p class="border-bottom"><strong>Description:</strong> Watch the video and threadbuild, and jot out key threads while watching the video</p>
+                    <h4>Thread A
+                    </h4>
+                </div>
+                    <!-- Content to toggle show/hide -->
+                    <div class="toggle-content" id="content">
+
+                        <!-- Left and Right boxes -->
+                        <div class="box-container">
+                            <div class="box">
+                                <p>Sub Thread 1</p>
+                                <textarea placeholder="Enter Text Here" rows="4" cols="50"></textarea>
+                            </div>
+                            <div class="box">
+                                <p>Sub Interpretation</p>
+                                <textarea placeholder="Enter Text Here" rows="4" cols="50"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Icon section -->
+                        <div class="icons-select">
+
+
+                            <div class="icons">
+                                <div class="icon-box">
+                                    <img src="./image/Vector (1).png" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <img src="./image/Vector (2).png" alt="">
+                                </div>
+                                <div class="icon-box"><img src="./image/Vector (3).png" alt=""></div>
+                                <div class="icon-box"><img src="./image/Vector (4).png" alt=""></div>
+                            </div>
+
+                            <!-- Right side boxes -->
+                            <div class="right-boxes">
+                                <div class="right-box">
+                                    <select>
+                                        <option value="" disabled selected>Select Category</option>
+                                        <option value="option2">Option 1</option>
+                                        <option value="option2">Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                        <option value="option4">Option 4</option>
+                                    </select>
+                                </div>
+                                <div class="right-box">
+                                    <select>
+                                        <option value="" disabled selected>Select Category</option>
+                                        <option value="option2">Option 1</option>
+                                        <option value="option2">Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                        <option value="option4">Option 4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Button -->
+                        <div class="button-thread">Sub Thread</div>
+
+                        <!-- Final section with heading and input -->
+                        <div class="final-section">
+                            <p>Summary for Thread A</p>
+                            <textarea placeholder="Enter Text Here" rows="4" cols="50"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="parent-container">
+
+               <!-- CENTER - THIRD BOX START-->
+
+                <div class="container">
+                    <h3>Structure your Pointer
+
+                        <span class="icon-first">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </span>
+                    </h3>
+                    <p class="border-bottom"><strong>Description:</strong> Write a 300 - 400 word article from your thread . Publish your understanding and showcase your understanding to the entire world</p>
+
+
+                    <div class="third-box-input">
+                        <h5>Title</h5>
+                        <input type="text">
+                    </div>
+                    <div class="third-box-content">
+                        <h1>Content</h1>
+                        <div class="toolbar-head">
+
+
+                            <div class="toolbar">
+                                <div>
+
+                                    <button>File</button>
+                                    <button>Edit</button>
+                                    <button>View</button>
+                                    <button>Insert</button>
+                                    <button>Format</button>
+                                    <button>Tools</button>
+                                    <button>Table</button>
+                                    <button>Help</button>
+                                </div>
+
+                                <div class="options">
+                                    <a href=""><img src="./image/arrow-curve-left-right.png" alt=""></a>
+                                    <a href=""><img src="./image/arrow-curve-left-down.png" alt=""></a>
+                                    <a href=""><img src="./image/arrow-expand-02.png" alt=""></a>
+                                    <a href=""><i class="fa-solid fa-ellipsis"></i></a>
+                                    <select>
+                                        <option value="Paragraph">Paragraph</option>
+                                        <option value="Heading 1">Heading 1</option>
+                                        <option value="Heading 2">Heading 2</option>
+                                        <option value="Heading 3">Heading 3</option>
+                                    </select>
+                                    <button><i class="fa fa-ellipsis-h"></i></button>
+                                </div>
+                            </div>
+                            <div class="editor">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+               <!-- CENTER - THIRD BOX FINISH-->
+
+               <!-- CENTER - FOURTH BOX START-->
+
+
+                <div class="container">
+                    <h3> 45A Method
+
+                        <span class="icon-first">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </span>
+                    </h3>
+                    <p class="border-bottom"><strong>Description:</strong> To Explore more read more</p>
+                  
+                    <div class="card-body">
+                        <div class="thread">
+                            <div class="thread-header">
+                                <i class="icon chevron-up"></i> Introduction
+                            </div>
+                            <div class="thread-body">
+                                <p>The 4SA Method, How to bring a idea into process?</p>
+                                <button class="btn">See more</button>
+                            </div>
+                        </div>
+                        <div class="thread">
+                            <div class="thread-header">
+                                <i class="icon chevron-up"></i> Thread A
+                            </div>
+                            <div class="thread-body">
+                                <p>How are you going to develop your strategy? Which method are you going to use to
+                                    develop a strategy?What if the project is lengthy?</p>
+                                <button class="btn">See more</button>
+                            </div>
+                            <div class="thread-example">
+                                <h4>Example 1</h4>
+                                <p>You have a concept; how will you put it into p</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- CENTER - FOURTH BOX FINISH-->
+
+            </div>
+        </section>
+        <!-- CENTER SECTION FINISH  -->
+
+        <!-- RIGHT SECTION START  -->
+
+        <div class="right-section-head">
+
+
+            <div class="right-section">
+
+                <span class="close-icon" style="display: block;">&times;</span>
+                <div class="open-text">
+                    <p>N</p>
+                    <p>o</p>
+                    <p>t</p>
+                    <p>i</p>
+                    <p>c</p>
+                    <p>e</p>
+                    <br>
+                    <p>B</p>
+                    <p>o</p>
+                    <p>a</p>
+                    <p>r</p>
+                    <p>d</p>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- RIGHT SECTION FINISH  -->
+
+    </div>
+
+    <!-- CONTENT SECTION START  -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
